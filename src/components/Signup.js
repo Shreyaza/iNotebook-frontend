@@ -8,7 +8,7 @@ const Signup = (props) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         const {name, email, password} = credentials;
-        const response = await fetch("http://https://i-nootbook-backend.vercel.app/api/auth/createuser ", {
+        const response = await fetch("https://i-nootbook-backend.vercel.app/api/auth/createuser ", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
